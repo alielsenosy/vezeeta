@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Ahmed",
+    "fees": 250,
+    "Specialty": "Neurology (Brain & Nerves)",
+    "profilePic": "../assets/doc1.png"
+  },
+  {
+    "name": "Rasha",
+    "fees": 300,
+    "Specialty": "Ear, Nose and Throat",
+    "profilePic": "../assets/doc2.png"
+  },
+  {
+    "name": "Walid",
+    "fees": 750,
+    "Specialty": "Physiotherapy and Sport Injuries",
+    "profilePic": "../assets/doc3.png"
+  },
+  {
+    "name": "Ramy",
+    "fees": 600,
+    "Specialty": "Oncology Surgery",
+    "profilePic": "../assets/doc4.png"
+  },
+  {
+    "name": "Ali",
+    "fees": 1200,
+    "Specialty": "Specialist of Physiotherapy and Sports Injuries",
+    "profilePic": "../assets/doc5.png"
+  },
+  {
+    "name": "Mai",
+    "fees": 550,
+    "Specialty": "Specialist in plastic surgery and body sculpting",
+    "profilePic": "../assets/doc6.png"
+  }
+]

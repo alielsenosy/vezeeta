@@ -1,0 +1,16 @@
+<div class="card mb-3" style="max-width: 540px;" *ngFor="let item of listOfdoctors">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{ item.profilePic }}" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Dr/ {{ item.name }}</h5>
+        <p class="card-text">Fees: {{ item.fees }} $</p>
+        <p class="card-text"><small class="text-muted">Specialty: {{ item.Specialty }}</small></p>
+        <ngb-rating [rate]="0"></ngb-rating>
+      </div>
+      <app-booking></app-booking>
+    </div>
+  </div>
+</div>
